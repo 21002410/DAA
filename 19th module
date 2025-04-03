@@ -1,0 +1,285 @@
+TT DS PYTHON MODULE-19
+Started on	Friday, 16 August 2024, 1:22 PM
+State	Finished
+Completed on	Friday, 16 August 2024, 2:32 PM
+Time taken	1 hour 10 mins
+Grade	80.00 out of 100.00
+Question 1
+Incorrect
+Mark 0.00 out of 20.00
+Not flaggedFlag question
+Question text
+Write a python program to implement the quick sort using recursion on the given list of float values.
+
+For example:
+
+Input	Result
+5
+6.3
+1.2
+4.6
+5.8
+9.7
+pivot:  9.7
+pivot:  5.8
+pivot:  4.6
+[1.2, 4.6, 5.8, 6.3, 9.7]
+6
+2.3
+7.8
+9.5
+4.2
+3.6
+5.4
+pivot:  5.4
+pivot:  3.6
+pivot:  7.8
+[2.3, 3.6, 4.2, 5.4, 7.8, 9.5]
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	
+5
+6.3
+1.2
+4.6
+5.8
+9.7
+pivot:  9.7
+pivot:  5.8
+pivot:  4.6
+[1.2, 4.6, 5.8, 6.3, 9.7]
+Some hidden test cases failed, too.
+Your code must pass all tests to earn any marks. Try again.
+
+Incorrect
+Marks for this submission: 0.00/20.00.
+Question 2
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Write a python program to implement merge sort using iterative approach on the given list of  float values.
+
+For example:
+
+Test	Input	Result
+Merge_Sort(S)
+5
+10.2
+21.3
+3.5
+7.8
+9.8
+The Original array is:  [10.2, 21.3, 3.5, 7.8, 9.8]
+Array after sorting is:  [3.5, 7.8, 9.8, 10.2, 21.3]
+Merge_Sort(S)
+6
+20.3
+41.2
+5.3
+6.2
+8.1
+65.2
+The Original array is:  [20.3, 41.2, 5.3, 6.2, 8.1, 65.2]
+Array after sorting is:  [5.3, 6.2, 8.1, 20.3, 41.2, 65.2]
+Answer:(penalty regime: 0 %)
+ 
+Feedback
+Test	Input	Expected	Got	
+Merge_Sort(S)
+5
+10.2
+21.3
+3.5
+7.8
+9.8
+The Original array is:  [10.2, 21.3, 3.5, 7.8, 9.8]
+Array after sorting is:  [3.5, 7.8, 9.8, 10.2, 21.3]
+The Original array is:  [10.2, 21.3, 3.5, 7.8, 9.8]
+Array after sorting is:  [3.5, 7.8, 9.8, 10.2, 21.3]
+Merge_Sort(S)
+6
+20.3
+41.2
+5.3
+6.2
+8.1
+65.2
+The Original array is:  [20.3, 41.2, 5.3, 6.2, 8.1, 65.2]
+Array after sorting is:  [5.3, 6.2, 8.1, 20.3, 41.2, 65.2]
+The Original array is:  [20.3, 41.2, 5.3, 6.2, 8.1, 65.2]
+Array after sorting is:  [5.3, 6.2, 8.1, 20.3, 41.2, 65.2]
+Merge_Sort(S)
+4
+2.3
+6.1
+4.5
+96.5
+The Original array is:  [2.3, 6.1, 4.5, 96.5]
+Array after sorting is:  [2.3, 4.5, 6.1, 96.5]
+The Original array is:  [2.3, 6.1, 4.5, 96.5]
+Array after sorting is:  [2.3, 4.5, 6.1, 96.5]
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 3
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question textWrite a Python Program Using a recursive function to calculate the sum of a sequence
+For example:
+
+Input	Result
+20
+210
+36
+666
+45
+1035
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+20
+210
+210
+36
+666
+666
+45
+1035
+1035
+58
+1711
+1711
+65
+2145
+2145
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 4
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Write a python program to implement linear search on the given tuple of string values.
+
+note: As the tuple is immutable convert the list to tuple to perform search
+
+For example:
+
+Input	Result
+5
+ram
+john
+akbar
+seetha
+oviya
+john
+Tuple: john found
+4
+rohini
+fathima
+jenifer
+nizam
+rakesh
+Tuple: rakesh not found
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+5
+ram
+john
+akbar
+seetha
+oviya
+john
+Tuple: john found
+Tuple: john found
+4
+rohini
+fathima
+jenifer
+nizam
+rakesh
+Tuple: rakesh not found
+Tuple: rakesh not found
+6
+rose
+jasmine
+tulips
+marigold
+hibiscus
+lotus
+lilly
+Tuple: lilly not found
+Tuple: lilly not found
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 5
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Write a python program to implement linear search on the given tuple of float values.
+
+note: As the tuple is immutable convert the list to tuple to perform search
+
+For example:
+
+Input	Result
+5
+3.2
+1.5
+6.4
+7.8
+9.5
+6.4
+Tuple: 6.4 found
+6
+3.2
+1.2
+3.4
+5.3
+6.2
+6.8
+6.2
+Tuple: 6.2 found
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+5
+3.2
+1.5
+6.4
+7.8
+9.5
+6.4
+Tuple: 6.4 found
+Tuple: 6.4 found
+6
+3.2
+1.2
+3.4
+5.3
+6.2
+6.8
+6.2
+Tuple: 6.2 found
+Tuple: 6.2 found
+4
+2.1
+3.2
+6.5
+4.5
+3.5
+Tuple: 3.5 not found
+Tuple: 3.5 not found
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.

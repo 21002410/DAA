@@ -1,0 +1,274 @@
+TT DS PYTHON MODULE-20
+Started on	Monday, 23 September 2024, 10:28 AM
+State	Finished
+Completed on	Monday, 23 September 2024, 10:34 AM
+Time taken	5 mins 20 secs
+Grade	80.00 out of 100.00
+Question 1
+Not answered
+Mark 0.00 out of 20.00
+Not flaggedFlag question
+Question text
+Write a python program to implement quick sort on the given float  array values.
+
+For example:
+
+Input	Result
+5
+6.9
+8.3
+2.1
+1.5
+6.4
+left:  []
+right:  []
+left:  []
+right:  []
+left:  [1.5]
+right:  [6.4]
+left:  []
+right:  []
+left:  [1.5, 2.1, 6.4]
+right:  [8.3]
+[1.5, 2.1, 6.4, 6.9, 8.3]
+6
+3.1
+2.4
+5.6
+4.3
+6.2
+7.8
+left:  []
+right:  []
+left:  []
+right:  []
+left:  []
+right:  []
+left:  []
+right:  [7.8]
+left:  [4.3]
+right:  [6.2, 7.8]
+left:  [2.4]
+right:  [4.3, 5.6, 6.2, 7.8]
+[2.4, 3.1, 4.3, 5.6, 6.2, 7.8]
+Answer:(penalty regime: 0 %)
+Question 2
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Rat In A Maze Problem
+You are given a maze in the form of a matrix of size n * n. Each cell is either clear or blocked denoted by 1 and 0 respectively. A rat sits at the top-left cell and there exists a block of cheese at the bottom-right cell. Both these cells are guaranteed to be clear. You need to find if the rat can get the cheese if it can move only in one of the two directions - down and right. It can’t move to blocked cells.
+
+                                             
+
+Provide the solution for the above problem(Consider n=4)
+
+The output (Solution matrix) must be 4*4 matrix with value "1" which indicates the path to destination and "0" for the cell indicating the absence of the path to destination.
+
+
+
+
+
+
+
+
+
+Answer:(penalty regime: 0 %)
+ 
+Feedback
+Expected	Got	
+1 0 0 0
+1 1 0 0
+0 1 0 0
+0 1 1 1
+1 0 0 0
+1 1 0 0
+0 1 0 0
+0 1 1 1
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 3
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+You are given an integer N. For a given N x N chessboard, find a way to place 'N' queens such that no queen can attack any other queen on the chessboard.
+
+A queen can be attacked when it lies in the same row, column, or the same diagonal as any of the other queens. You have to print one such configuration.
+
+
+
+Note :
+
+Get the input from the user for N . The value of N must be from 1 to 6
+
+If solution exists Print a binary matrix as output that has 1s for the cells where queens are placed
+
+If there is no solution to the problem  print  "Solution does not exist"
+
+For example:
+
+Input	Result
+6
+0 0 0 1 0 0
+1 0 0 0 0 0
+0 0 0 0 1 0
+0 1 0 0 0 0
+0 0 0 0 0 1
+0 0 1 0 0 0
+Answer:(penalty regime: 0 %)
+ 
+Feedback
+Input	Expected	Got	
+2
+Solution does not exist
+Solution does not exist
+3
+Solution does not exist
+Solution does not exist
+6
+0 0 0 1 0 0
+1 0 0 0 0 0
+0 0 0 0 1 0
+0 1 0 0 0 0
+0 0 0 0 0 1
+0 0 1 0 0 0
+0 0 0 1 0 0
+1 0 0 0 0 0
+0 0 0 0 1 0
+0 1 0 0 0 0
+0 0 0 0 0 1
+0 0 1 0 0 0
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 4
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+SUBSET SUM PROBLEM
+
+We are given a list of n numbers and a number x, the task is to write a python program to find out all possible subsets of the list such that their sum is x.
+
+Examples:
+
+
+
+THE INPUT
+
+1.No of numbers
+
+2.Get the numbers
+
+3.Sum Value
+
+
+
+For example:
+
+Input	Result
+4
+2
+4
+5
+9
+15
+[2, 4, 9]
+5
+4
+16
+5
+23
+12
+9
+[4, 5]
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+4
+2
+4
+5
+9
+15
+[2, 4, 9]
+[2, 4, 9]
+6
+10
+20
+25
+50
+70
+90
+80
+[10, 70]
+[10, 20, 50]
+[10, 70]
+[10, 20, 50]
+5
+4
+16
+5
+23
+12
+9
+[4, 5]
+[4, 5]
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 5
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+GRAPH COLORING PROBLEM 
+
+Given an undirected graph and a number m, determine if the graph can be coloured with at most m colours such that no two adjacent vertices of the graph are colored with the same color. Here coloring of a graph means the assignment of colors to all vertices.
+
+Input-Output format: 
+
+Input: 
+
+A 2D array graph[V][V] where V is the number of vertices in graph and graph[V][V] is an adjacency matrix representation of the graph. A value graph[i][j] is 1 if there is a direct edge from i to j, otherwise graph[i][j] is 0.
+An integer m is the maximum number of colors that can be used.
+Output:
+
+An array color[V] that should have numbers from 1 to m. color[i] should represent the color assigned to the ith vertex.
+
+Example: 
+
+
+
+
+
+
+
+
+Answer:(penalty regime: 0 %)
+ 
+Feedback
+Test	Expected	Got	
+g = Graph(4)
+g.graph = [[0, 1, 1, 1], [1, 0, 1, 0], [1, 1, 0, 1], [1, 0, 1, 0]]
+m = 3
+g.graphColouring(m)
+Solution exist and Following are the assigned colours:
+1 2 3 2
+Solution exist and Following are the assigned colours:
+1 2 3 2
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Finish review
+Skip <span id="mod_quiz_navblock_title">Quiz navigation</span>
+Quiz navigation
+Show one page at a time
+Finish rev

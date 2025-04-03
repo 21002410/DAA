@@ -1,0 +1,160 @@
+TT DS PYTHON MODULE-22
+Started on	Wednesday, 25 September 2024, 9:34 AM
+State	Finished
+Completed on	Wednesday, 25 September 2024, 9:45 AM
+Time taken	11 mins 21 secs
+Grade	80.00 out of 100.00
+Question 1
+Incorrect
+Mark 0.00 out of 20.00
+Not flaggedFlag question
+Question text
+Create a python program to find the Edit distance between two strings using dynamic programming.
+
+For example:
+
+Input	Result
+Cats
+Rats
+No. of Operations required : 1
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+Cats
+Rats
+No. of Operations required : 1
+No. of Operations required : 1
+Saturday
+Sunday
+No. of Operations required : 3
+No. of Operations required : 1
+Your code must pass all tests to earn any marks. Try again.
+
+Incorrect
+Marks for this submission: 0.00/20.00.
+Question 2
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Create a Python program to find longest common substring or subword (LCW) of two strings using dynamic programming with bottom-up approach.
+
+A string r is a substring or subword of a string s if r is contained within s. A string r is a common substring of s and t if r is a substring of both s and t. A string r is a longest common substring or subword (LCW) of s and t if there is no string that is longer than r and is a common substring of s and t. The problem is to find an LCW of two given strings.
+
+For example:
+
+Test	Input	Result
+lcw(u, v)
+bisect
+trisect
+Longest Common Subword: isect
+Answer:(penalty regime: 0 %)
+Feedback
+Test	Input	Expected	Got	
+lcw(u, v)
+bisect
+trisect
+Longest Common Subword: isect
+Longest Common Subword: isect
+lcw(u, v)
+director
+conductor
+Longest Common Subword: ctor
+Longest Common Subword: ctor
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 3
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Write a Python Program to find longest common subsequence using Dynamic Programming
+
+
+
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+abcbdab
+bdcaba
+Length of LCS is : 4
+Length of LCS is : 4
+treehouse
+elephant
+Length of LCS is : 3
+Length of LCS is : 3
+AGGTAB
+GXTXAYB
+Length of LCS is : 4
+Length of LCS is : 4
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 4
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Write a Python program for Bad Character Heuristic of Boyer Moore String Matching Algorithm
+
+
+For example:
+
+Input	Result
+ABAAAABCD
+ABC
+Pattern occur at shift = 5
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+ABAAAABCD
+ABC
+Pattern occur at shift = 5
+Pattern occur at shift = 5
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 5
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+LONGEST PALINDROMIC SUBSEQUENCE
+
+Given a sequence, find the length of the longest palindromic subsequence in it.
+
+
+
+For example:
+
+Input	Result
+ABBDCACB
+The length of the LPS is 5
+Answer:(penalty regime: 0 %)
+Feedback
+Input	Expected	Got	
+ABBDCACB
+The length of the LPS is 5
+The length of the LPS is 5
+BBABCBCAB
+The length of the LPS is 7
+The length of the LPS is 7
+cbbd
+The length of the LPS is 2
+The length of the LPS is 2
+abbab
+The length of the LPS is 4
+The length of the LPS is 4
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Finish review
+Skip <span id="mod_quiz_navblock_title">Quiz navigation</span>
+Quiz navigation
+Show one page at a time
+Finish review

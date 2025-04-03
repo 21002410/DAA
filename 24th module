@@ -1,0 +1,197 @@
+TT DS PYTHON MODULE-24
+Started on	Friday, 27 September 2024, 9:54 AM
+State	Finished
+Completed on	Friday, 27 September 2024, 9:59 AM
+Time taken	4 mins 54 secs
+Grade	80.00 out of 100.00
+Question 1
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+You are given a rows x cols matrix grid representing a field of cherries where grid[i][j] represents the number of cherries that you can collect from the (i, j) cell.
+
+You have two robots that can collect cherries for you:
+
+Robot #1 is located at the top-left corner (0, 0), and
+Robot #2 is located at the top-right corner (0, cols - 1).
+Return the maximum number of cherries collection using both robots by following the rules below:
+
+From a cell (i, j), robots can move to cell (i + 1, j - 1), (i + 1, j), or (i + 1, j + 1).
+When any robot passes through a cell, It picks up all cherries, and the cell becomes an empty cell.
+When both robots stay in the same cell, only one takes the cherries.
+Both robots cannot move outside of the grid at any moment.
+Both robots should reach the bottom row in grid.
+
+For example:
+
+Test	Result
+ob.cherryPickup(grid)
+24
+Answer:(penalty regime: 0 %)
+  
+Feedback
+Test	Expected	Got	
+ob.cherryPickup(grid)
+24
+24
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 2
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Create a python program for 0/1 knapsack problem using naive recursion method
+
+For example:
+
+Test	Input	Result
+knapSack(W, wt, val, n)
+3
+3
+50
+60
+100
+120
+10
+20
+30
+The maximum value that can be put in a knapsack of capacity W is:  220
+Answer:(penalty regime: 0 %)
+Feedback
+Test	Input	Expected	Got	
+knapSack(W, wt, val, n)
+3
+3
+50
+60
+100
+120
+10
+20
+30
+The maximum value that can be put in a knapsack of capacity W is:  220
+The maximum value that can be put in a knapsack of capacity W is:  220
+knapSack(W, wt, val, n)
+3
+3
+55
+65
+115
+125
+15
+25
+35
+The maximum value that can be put in a knapsack of capacity W is:  190
+The maximum value that can be put in a knapsack of capacity W is:  190
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 3
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Create a python program using brute force method of searching for the given substring in the main string.
+
+For example:
+
+Test	Input	Result
+match(str1,str2)
+AABAACAADAABAABA
+AABA
+Found at index 0
+Found at index 9
+Found at index 12
+Answer:(penalty regime: 0 %)
+Feedback
+Test	Input	Expected	Got	
+match(str1,str2)
+AABAACAADAABAABA
+AABA
+Found at index 0
+Found at index 9
+Found at index 12
+Found at index 0
+Found at index 9
+Found at index 12
+match(str1,str2)
+saveetha
+savee
+Found at index 0
+Found at index 0
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Question 4
+Incorrect
+Mark 0.00 out of 20.00
+Not flaggedFlag question
+Question text
+Rat In A Maze Problem
+You are given a maze in the form of a matrix of size n * n. Each cell is either clear or blocked denoted by 1 and 0 respectively. A rat sits at the top-left cell and there exists a block of cheese at the bottom-right cell. Both these cells are guaranteed to be clear. You need to find if the rat can get the cheese if it can move only in one of the two directions - down and right. It can’t move to blocked cells.
+
+                                             
+
+Provide the solution for the above problem Consider n=4)
+
+The output (Solution matrix) must be 4*4 matrix with value "1" which indicates the path to destination and "0" for the cell indicating the absence of the path to destination.
+
+
+
+
+
+
+
+
+
+
+
+Answer:(penalty regime: 0 %)
+Feedback
+Expected	Got	
+1 0 0 0
+1 1 0 0
+0 1 0 0
+0 1 1 1
+***Run error***
+Traceback (most recent call last):
+  File "__tester__.python3", line 8, in <module>
+    str1=input()
+EOFError: EOF when reading a line
+Your code must pass all tests to earn any marks. Try again.
+
+Incorrect
+Marks for this submission: 0.00/20.00.
+Question 5
+Correct
+Mark 20.00 out of 20.00
+Not flaggedFlag question
+Question text
+Given a 2D matrix tsp[][], where each row has the array of distances from that indexed city to all the other cities and -1 denotes that there doesn’t exist a path between those two indexed cities. The task is to print minimum cost in TSP cycle.
+
+tsp[][] = {{-1, 30, 25, 10}, 
+{15, -1, 20, 40}, 
+{10, 20, -1, 25}, 
+{30, 10, 20, -1}}; 
+
+
+
+
+
+Answer:(penalty regime: 0 %)
+ 
+Feedback
+Expected	Got	
+Minimum Cost is : 50
+Minimum Cost is : 50
+Passed all tests!  
+
+Correct
+Marks for this submission: 20.00/20.00.
+Finish review
